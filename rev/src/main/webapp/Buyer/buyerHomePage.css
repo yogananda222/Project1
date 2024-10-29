@@ -1,0 +1,110 @@
+@charset "UTF-8";
+ /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Dropdown links */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Show the dropdown menu on hover or click */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        /* Show the dropdown when clicked */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        
+        
+        
+        
+        /* Container for the food list */
+.food-list-container {
+display: inline-block;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+/* Style for each food item */
+.food-item {
+width: 300px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+overflow: hidden;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+display: inline-block;
+}
+
+.food-item:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Food item image */
+.food-item img {
+width: 55%;
+height: 100px;
+
+}
+
+/* Food item details */
+.food-details {
+padding: 10px;
+}
+
+/* Food item title */
+.food-title {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+/* Food item description */
+.food-description {
+font-size: 14px;
+color: #666;
+}
+
+/* Food item price */
+.food-price {
+font-size: 16px;
+color: #333;
+margin-top: 10px;
+}
+
+/* Add to cart button */
+.add-to-cart-btn {
+display: block;
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 0;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+background-color: #0056b3;
+}
+        
